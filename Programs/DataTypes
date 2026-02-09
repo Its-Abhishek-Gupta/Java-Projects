@@ -1,0 +1,16 @@
+public class DataTypes {
+    public static void main(String[] args) {
+        byte age=30;
+        int phone=735514899;
+        long phone2=7355148990L;
+        float pi=3.14F;
+        char letter='@';
+        boolean isAdult=true;
+        System.out.println(age);
+        System.out.println(phone);
+        System.out.println(phone2);
+        System.out.println(pi);
+        System.out.println(letter);
+        System.out.println(isAdult);
+    }
+}
