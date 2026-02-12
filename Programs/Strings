@@ -1,0 +1,23 @@
+public class Strings {
+    public static void main(String[] args) {
+        //Strings
+        //Concatenate
+        String name1 = "Abhishek";
+        String name2= "Payal";
+        String name3= name1 + " and " + name2;
+        System.out.println(name3);
+        //charAt
+        System.out.println(name1.charAt(0));
+        System.out.println(name2.charAt(2));
+        System.out.println(name3.charAt(7));
+        //length
+        System.out.println(name3.length());
+        //replace
+        //can not make changes in existing string , always we have to make new string
+        String name4 = name2.replace('P','K');
+        System.out.println(name4);
+        //substring
+        //sub string is taken from begin index to end index-1
+        System.out.println(name3.substring(0,8));
+    }
+}
