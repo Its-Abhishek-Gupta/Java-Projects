@@ -1,0 +1,12 @@
+public class CASTINGs {
+    public static void main(String[] args){
+        //casting
+        double price=100.00;
+        double finalPrice=price + 18;//IMPLICIT CASTING
+        System.out.println(finalPrice);
+        //EXPLICIT CASTING
+        int p=100;
+        int fp=p + (int)18.67;//ALL DECIMAL VALUES ARE TRUNCATED
+        System.out.println(fp);
+    }
+}
