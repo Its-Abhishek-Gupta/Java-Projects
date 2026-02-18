@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Program {
+    public static void main (String[] args){
+        Scanner i = new Scanner(System.in);
+
+        System.out.println("Enter the first number:");
+        float a = i.nextFloat();
+
+        System.out.println("Enter the second number:");
+        float b = i.nextFloat();
+
+        if (a>b)
+            System.out.println(a+" is greater");
+        else
+            System.out.println(b+" is greater");
+
+    }
+    
+}
