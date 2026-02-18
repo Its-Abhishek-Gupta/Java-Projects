@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+import javax.swing.SpringLayout;
+public class Program {
+    public static void main (String[] args) {
+        Scanner i = new Scanner(System.in);
+        
+        System.out.println("Enter the first number:");
+        float a = i.nextFloat();
+
+        System.out.println("Enter the second number:");
+        float b = i.nextFloat();
+
+        System.out.println("Enter the third number:");
+        float c = i.nextFloat();
+        
+        if (a>b && a>c)
+            System.out.println(a+" is largest");
+        
+        else if (b>a && b>c)
+            System.out.println(b+" is greatest");
+
+        else
+            System.out.println(c+" is greatest");
+    }
+}
